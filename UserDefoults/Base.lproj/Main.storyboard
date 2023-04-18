@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Task-->
+        <!--Задачи-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UserDefoults" customModuleProvider="target" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                             <constraint firstItem="SDk-79-I0a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rNX-KW-uGH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Task" id="ELJ-cq-nwG">
+                    <navigationItem key="navigationItem" title="Задачи" id="ELJ-cq-nwG">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="Fp3-Ah-waI"/>
                     </navigationItem>
                     <connections>
