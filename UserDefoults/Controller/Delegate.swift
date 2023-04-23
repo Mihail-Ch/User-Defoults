@@ -29,7 +29,7 @@ extension ViewController: UITableViewDelegate {
     // Удаляем задачу
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let actionDelete = UIContextualAction(style: .destructive,
-                                              title: "Удалить") { _, _, _ in
+                                              title: "Delete") { _, _, _ in
             self.myTask.remove(at: indexPath.row)
             tableView.reloadData()
         }
